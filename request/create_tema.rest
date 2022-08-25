@@ -1,0 +1,27 @@
+POST http://localhost:3002/api/notes
+Content-Type: application/json
+   
+   {
+    "titulo": "Biodiversidad",
+    "URL": "10.100.....Bio.php?tipouma=2&edo=8&mun=01231&sexo=0",
+    "tipo": "WebService",
+    "campos": ["identidad","idanio"],
+    "camposAl": [ "Entidad","Año"],
+    "camposSt": ["a", "idSx"],
+    "camposNm": ["b", "c"],
+    "camposCat": ["d", "e", "tipouma", "idSx"],
+    "camposOp": ["superf", "num", "benef"],
+    "camposGp": ["a", "b", "c", "d"],
+    "camposfilt": ["ent", "anio", "mun"],
+    "idsCompat": [2, 5, 8],
+    "idCapa": 68
+  }
+
+
+###
+
+POST http://localhost:3002/api/notes
+Content-Type: application/json
+   
+   {
+  }
